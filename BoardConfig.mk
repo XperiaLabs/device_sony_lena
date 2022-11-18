@@ -66,6 +66,7 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom \
     swiotlb=2048 \
     loop.max_part=7 \
     cgroup.memory=nokmem,nosocket \
+    kpti=off \
     reboot=panic_warm \
     buildid=LENA-1.2.0-230301-1745 \
     zram.backend=z3fold \
