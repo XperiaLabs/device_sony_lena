@@ -246,9 +246,6 @@ PRODUCT_COPY_FILES += \
 # Security Patch Level
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
-# Telephony
-TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
-
 # SEPolicy
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 include hardware/sony/sepolicy/qti/SEPolicy.mk
