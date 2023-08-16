@@ -6,7 +6,7 @@ The Xperia 10 III (Codenamed "lena") is a mid-range smartphone from Sony release
 
 | Feature                 | Specification                                                                       |
 | :---------------------- | :-----------------------------------------------------------------------------------|
-| Chipset                 | Qualcomm® Snapdragon® 690 5G (8 nm)                                                 |
+| Chipset                 | Qualcomm® Snapdragon™ 690 5G (8 nm)                                                 |
 | CPU                     | Octa-Core (2x 2.0 GHz Kryo 560 Gold & 6x 1.7 GHz Kryo 560 Silver)                   |
 | GPU                     | Adreno 619                                                                          |
 | Memory                  | 6 GB LPDDR4X RAM                                                                    |
