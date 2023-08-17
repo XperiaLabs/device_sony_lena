@@ -492,6 +492,11 @@
         <item>3</item>
     </integer-array>
 
+     <!-- Height of the status bar -->
+    <dimen name="status_bar_height_default">126.0px</dimen>
+    <dimen name="status_bar_height_portrait">126.0px</dimen>
+    <dimen name="status_bar_height_landscape">24dip</dimen>
+
     <!-- Whether the new Auto Selection Network UI should be shown -->
     <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
 
