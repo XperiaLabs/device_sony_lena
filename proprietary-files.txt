@@ -1,4 +1,4 @@
-# Stock package version: Sony/qssi/qssi:13/62.2.A.0.481/062002A000048103716344522:user/release-keys
+# Stock package version: Sony/qssi/qssi:13/62.2.A.0.525/062002A000052503716344522:user/release-keys
 
 # ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
