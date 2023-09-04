@@ -214,10 +214,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
-# Charger
-PRODUCT_PACKAGES += \
-    vendor.semc.hardware.charger@1.0.vendor
-
 # Rootdir
 PRODUCT_PACKAGES += \
     init.class_main.sh \
@@ -386,7 +382,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.1-service.sony
 
-
 # Net
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
@@ -462,6 +457,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/sony
+
+# Sony Charger Interface
+PRODUCT_PACKAGES += \
+    vendor.sony.charger \
+    vendor.sony.charger-service
+
+# Sony Display interface
+PRODUCT_PACKAGES += \
+    vendor.semc.hardware.display@2.0.vendor \
+    vendor.semc.hardware.display@2.1.vendor \
+    vendor.semc.hardware.display@2.2.vendor
 
 # Set fdsan to the warn_once severity level
 PRODUCT_PROPERTY_OVERRIDES += \
