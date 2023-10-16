@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lena.mk
+    $(LOCAL_DIR)/evolution_lena.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lena-user \
-    aosp_lena-userdebug \
-    aosp_lena-eng
+    evolution_lena-user \
+    evolution_lena-userdebug \
+    evolution_lena-eng
